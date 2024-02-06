@@ -22,4 +22,12 @@ public class Firkanter extends Figur {
     public double getBredde() {
         return bredde;
     }
+
+    public void setHøjde(double højde) {
+        this.højde = højde;
+    }
+
+    public void setBredde(double bredde) {
+        this.bredde = bredde;
+    }
 }

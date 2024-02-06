@@ -1,6 +1,6 @@
 package Opgave01;
 
-public class Ellipse extends Rund {
+public class Ellipse extends Rund implements Reziable {
     private double aRadius;
     private double bRadius;
 
@@ -13,5 +13,15 @@ public class Ellipse extends Rund {
         double areal;
         areal = Math.PI * this.aRadius * this.bRadius;
         return areal;
+    }
+
+    @Override
+    public void doubleUp() {
+
+    }
+
+    @Override
+    public void halve() {
+
     }
 }
